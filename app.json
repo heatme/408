@@ -6,7 +6,7 @@
   "stack": "container",
     "env": {
         "STRING_SESSION": {
-            "description": "fill with the telethon session string from https://replit.com/@Itz-zaid/Generator",
+            "description": "حط كود التريمكس",
             "required": true
         },
         "HEROKU_MODE": {
@@ -15,27 +15,27 @@
             "value": "ENABLE"
         },
         "SUPPORT": {
-            "description": "Fill there your group username else leave",
+            "description": "جروب المطور",
             "required": false,
-            "value": "TheSupportChat"
+            "value": "TelemexChate"
         },
         "CHANNEL": {
-            "description": "Fill there your Channel username else leave",
+            "description": "قناة المطور",
             "required": false,
-            "value": "TheUpdatesChannel"
+            "value": "Telemex"
         },
         "BOT_USERNAME": {
             "description": "Fill there your bot username",
             "required": false,
-            "value": "Zaid2_Robot"
+            "value": "billiibot"
         },
         "ASSISTANT_ID": {
-            "description": "Fill there your Assistant id",
+            "description": "ايدي المطور",
             "required": true,
-            "value": "1669178360"
+            "value": "5514915465"
         },
         "BOT_TOKEN": {
-            "description": "fill with your bot token get from @BotFather on telegram",
+            "description": "بوت توكن",
             "required": true,
             "value": ""
         }
