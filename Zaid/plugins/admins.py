@@ -92,22 +92,21 @@ async def invitelink(event):
     await event.reply(f"Group link of {event.chat.title} is [here]({link.link})", link_preview=False)
 
 ADMIN_TEXT = """
-**✘ A module from which admins of the chat can use!**
+**✘ وحدة يمكن من خلالها لمسؤولي الدردشة استخدام!**
 
-‣ `?promote` - To Promote a user in the chat.
-‣ `?demote` - To Demote a user in the chat.
-‣ `?invitelink` - To get invitelink of a chat.
-‣ `?end` - To End music streaming.
-‣ `?skip` - To Skip Tracks Going on.
-‣ `?pause` - To Pause streaming.
-‣ `?resume` - to Resume Streaming.
-‣ `?leavevc` - force The Userbot to leave Vc Chat (Sometimes Joined).
-‣ `?playlist` - to check playlists.
+‣ `/promote` × لرفع العضو ادمن.
+‣ `/demote` × لتنزيل الادمن ألي العضو.
+‣ `/invitelink` × للحصول علي رابط الجروب.
+‣ `/end` × لإيقاف الموسيقى.
+‣ `/skip` × تخطي الاغنية.
+‣ `/pause` × لإيقاف الموسيقى مؤقتا.
+‣ `/resume` × لاستئناف تشغيل الاغنيه.
+‣ `/leavevc` × لمغادرة البوت من الجروب.
+‣ `/playlist` × للتحقق من قوائم التشغيل.
 """
 
 PLAY_TEXT = """
-**✘ A module from which users of the chat can use!**
-
-‣ `?play` - To Play Audio from Else Reply to audio file.
-‣ `?vplay` - To Stream Videos (HEROKU_MODE > Doesn't support).
+**✘ اوامر تشغيل الاغاني!**
+‣ `/play` × لتشغيل الاغا.
+‣ `/vplay` × لتشغيل فيديو (HEROKU_MODE > Doesn't support).
 """
