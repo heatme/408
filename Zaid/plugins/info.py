@@ -9,10 +9,9 @@ from telethon.tl.functions.users import GetFullUserRequest
 
 
 MISC_HELP = """
-**✘ An "odds and ends" module for small, simple commands which don't really fit anywhere.**
-
-‣ `?id` - To get current chat id or replied user id.
-‣ `?info` - To get info of a user.
+**✘ وحدة "احتمالات ونهايات" للأوامر الصغيرة والبسيطة التي لا تناسب أي مكان.**
+‣ `/id` × للحصول على معرف الدردشة الحالي أو معرف المستخدم الذي تم الرد عليه.
+‣ `/info` × للحصول على معلومات المستخدم.
 """
 
 @Zaid.on(events.NewMessage(pattern="^[!?/]id"))

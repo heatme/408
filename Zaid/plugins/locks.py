@@ -4,11 +4,11 @@ from Zaid.status import *
 from Config import Config
 
 LOCKS_HELP = """
-**✘ Do stickers annoy you? or want to avoid people sharing links? or pictures? You're in the right place!**
+**✘ هل تزعجك الملصقات؟ أو تريد تجنب مشاركة الأشخاص للروابط؟ او الصور؟ أنت في المكان الصحيح!**
 
-‣ `?lock` - To lock a module in the chat.
-‣ `?unlock` - To unlock a module in the chat.
-‣ `?locktypes` - To get a list of modules can be locked
+‣ `/lock` × لقفل شيء في الدردشة.
+‣ `/unlock` × لفتح شيء في الدردشة.
+‣ `/locktypes` × للحصول علي جميع الاشياء الذي يمكن ان تتقفل
 """
 
 @Zaid.on(events.NewMessage(pattern="^[!?/]lock ?(.*)"))
@@ -122,15 +122,15 @@ async def locktypes(event):
     TEXT = """
 **Locks:**
 
-‣ Text
-‣ Media
-‣ Sticker
-‣ Gifs
-‣ Videos
-‣ Contacts
-‣ Games
-‣ Inline 
-‣ all
+‣ نص
+‣ ميديا
+‣ ملصق
+‣ صور متحركة
+‣ مقاطع فيديو
+‣ جهات الاتصال
+‣ ألعاب
+‣ متصل
+‣ كل شيء
 """
     await event.reply(TEXT)
 

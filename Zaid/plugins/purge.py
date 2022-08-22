@@ -5,11 +5,11 @@ import time
 from Config import Config
 
 PR_HELP = """
-**✘ Need to delete lots of messages? That's what purges are for!**
+**✘ هل تحتاج إلى حذف الكثير من الرسائل؟ هذا هو سبب التطهير!**
 
-‣ `?purge` - Reply to a msg to delete msgs from there.
-‣ `?spurge` - Same as purge, but doesnt send the final confirmation message.
-‣ `?del` - Deletes the replied to message.
+‣ `/purge` × قم بالرد على رسالة لحذف الرسائل من هناك.
+‣ `/spurge` × مثل التطهير ، لكن لا يرسل رسالة التأكيد النهائية.
+‣ `/del` × يحذف الرد على الرسالة.
 """
 
 @Zaid.on(events.NewMessage(pattern=r"^[?!]purge"))

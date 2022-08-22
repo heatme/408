@@ -7,10 +7,9 @@ from Zaid.status import *
 from Config import Config
 
 CLEANER_HELP = """
-**✘ This is A Module To Remove Deleted Accounts From Your Groups!**
-
-‣ `?zombies` - To find zombies accounts in your chat.
-‣ `?zombies clean` - To remove the deleted accounts from your chat.
+**✘ هذه وحدة نمطية لإزالة الحسابات المحذوفة من مجموعاتك!**
+‣ `?zombies` × للعثور على حسابات المحذوفة في الدردشة الخاصة بك.
+‣ `?zombies clean` × لإزالة الحسابات المحذوفة من الدردشة.
 """
 
 

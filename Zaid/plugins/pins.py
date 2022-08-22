@@ -4,14 +4,14 @@ from Zaid.status import *
 from Config import Config
 
 PINS_TEXT = """
-**✘ All the pin related commands can be found here; keep your chat up to date on the latest news with a simple pinned message!**
+**✘ يمكن العثور على جميع الأوامر المتعلقة بالدبوس هنا ؛ حافظ على تحديث الدردشة الخاصة بك على آخر الأخبار برسالة مثبتة بسيطة.
 
-‣ `?pin` - To pinned a reply msg.
-‣ `?unpin` - To Unpin the latest pinned msg.
-‣ `?unpinall` - To unpinall all pinned msgs at once.
-‣ `?pinned` - To get current pinned msg.
+‣ `/pin` × لتثبيت رسالة رد.
+‣ `/unpin` × لإلغاء تثبيت آخر رسالة مثبتة.
+‣ `/unpinall` × لإلغاء تثبيت جميع الرسائل المثبتة مرة واحدة.
+‣ `/pinned` × للحصول على الرسالة المثبتة الحالية.
 
-**➥Note:** __Add `notify` after ?pin to notify all chat members.__
+**➥ملاحظة:** __أضف `notify` إشعارًا /pin لإخطار جميع أعضاء الدردشة..__
 """
 
 @Zaid.on(events.NewMessage(pattern="^[?!/]pinned"))

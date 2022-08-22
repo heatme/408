@@ -6,16 +6,15 @@ from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 
 BANS_TEXT = """
-**✘ Some people need to be publicly banned; spammers, annoyances, or just trolls.**
-
-‣ `?kickme` - To self Kick you from a chat.
-‣ `?kick` - To kick someone from a chat.
-‣ `?unban` - To unban a member from the chat.
-‣ `?ban` - To Ban Someone from a chat.
-‣ `?dban` - To delete the replied msg and bans the user.
-‣ `?sban` - To delete the replied msg and kicks the user.
-‣ `?skick` - To Delete Your msg and kicks the user 
-‣ `?dkick` - To delete your msg and and kicks the replied user.
+**✘ يجب حظر بعض الأشخاص علنًا ؛ مرسلي البريد العشوائي أو المضايقات أو المتصيدون فقط.**
+‣ `/kickme` × لطردك من الدردشة.
+‣ `/kick` × لطرد شخص ما من الدردشة.
+‣ `/unban` × لإلغاء حظر عضو من الدردشة.
+‣ `/ban` × لحظر شخص ما من الدردشة.
+‣ `/dban` × لحذف الرسالة التي تم الرد عليها وحظر المستخدم.
+‣ `/sban` × لحذف الرسالة التي تم الرد عليها وركل المستخدم.
+‣ `/skick` × لحذف رسالتك وركل المستخدم
+‣ `/dkick` × لحذف رسالتك وركل المستخدم الذي تم الرد عليه.
 """
 
 @Zaid.on(events.NewMessage(pattern="^[!?/]kick ?(.*)"))
