@@ -108,5 +108,5 @@ ADMIN_TEXT = """
 PLAY_TEXT = """
 **✘ اوامر تشغيل الاغاني!**
 ‣ `/play` × لتشغيل الاغا.
-‣ `/vplay` × لتشغيل فيديو (HEROKU_MODE > Doesn't support).
+‣ `/vplay` × لتشغيل فيديو
 """
